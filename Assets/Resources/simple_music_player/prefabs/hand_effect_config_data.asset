@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94e59c7bc7311cb42be021d80fdc485d, type: 3}
+  m_Name: hand_effect_config_data
+  m_EditorClassIdentifier: 
+  effectObjects:
+  - name: default
+    left_hand_effect_prefab: {fileID: 1662345333034736, guid: 92dc668d6620f5e46ace5b53cd88badb,
+      type: 2}
+    right_hand_effect_prefab: {fileID: 1710642774410326, guid: 571f67fe2de1bc54399c90f08f0db727,
+      type: 2}
+  - name: trail
+    left_hand_effect_prefab: {fileID: 1389395133284274, guid: 626e88a06858d9343997ddfbcb673de9,
+      type: 2}
+    right_hand_effect_prefab: {fileID: 1389395133284274, guid: 626e88a06858d9343997ddfbcb673de9,
+      type: 2}
+  - name: trail_audio_response
+    left_hand_effect_prefab: {fileID: 1389395133284274, guid: 9f3fa162d1c3c6a4280776c482499a11,
+      type: 2}
+    right_hand_effect_prefab: {fileID: 1389395133284274, guid: 9f3fa162d1c3c6a4280776c482499a11,
+      type: 2}

@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 400000}
+  - component: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: _ParticleSpawnerGUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a27801e7c5067a9418a1703717e54069, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particles:
+  - {fileID: 100002, guid: 49c573d2451ea4c4184c5019c8bd6cd3, type: 2}
+  - {fileID: 100002, guid: bdd3540944cb6b84fa528375cc659ed7, type: 2}
+  - {fileID: 100002, guid: c5723c03ba953ad41888ef94c04d9877, type: 2}
+  - {fileID: 100002, guid: 0207aefee72046d47be648a8183caa9f, type: 2}
+  - {fileID: 100002, guid: 10482b1826a33b042825d2a22731f279, type: 2}
+  - {fileID: 100004, guid: a14501998a478fd4db73c5b91dce2eeb, type: 2}
+  - {fileID: 100002, guid: a01e4ffce12a95b44a57b993f5e50585, type: 2}
+  - {fileID: 100002, guid: 17352102a987dae4e8ba2c8a5cb91134, type: 2}
+  - {fileID: 100002, guid: 4d9969a6a18cfb34f980b69e2e7739f3, type: 2}
+  - {fileID: 100002, guid: b59003dd15bc6844e8b6074816316ffb, type: 2}
+  - {fileID: 100002, guid: 092572531c6009d49bd207f44aa9dc1a, type: 2}
+  - {fileID: 100002, guid: 301c985125c93bd4a877a0104c8083cf, type: 2}
+  - {fileID: 100004, guid: 5ad1b4b6dd32e544296e2316afd4ebe6, type: 2}
+  - {fileID: 100002, guid: 811f17ce7e8ae3c489cde9cdee830d65, type: 2}
+  - {fileID: 100002, guid: 5a12218879cabd748a40a98702feb787, type: 2}
+  - {fileID: 100002, guid: 0582286ca5f5e1d49b325c3f77645a68, type: 2}
+  - {fileID: 100002, guid: cc5f740ee4756cd4ba67438bcd4014ba, type: 2}
+  - {fileID: 100008, guid: 857e03cfb423ea94ba4355c99106661a, type: 2}
+  - {fileID: 100002, guid: d921ecf4d34931542a8d17c6915f2865, type: 2}
+  - {fileID: 100002, guid: 2dbab87e60e01524b9e1ca795a13e8eb, type: 2}
+  - {fileID: 100002, guid: 9d12dfa01d7e1a84e81ebf586b333400, type: 2}
+  - {fileID: 100004, guid: 3ff787905c432154f87977433236098e, type: 2}
+  - {fileID: 100000, guid: fea1b5d08ce493241a28a11c581592f6, type: 2}
+  - {fileID: 100002, guid: 0b963edc6ee5e8e44b2cb7cd3a93d559, type: 2}
+  - {fileID: 100002, guid: 3ee0c533bd2498745a571fb6d4b4a322, type: 2}
+  - {fileID: 100002, guid: c3296ac845122574f8b20fc19e0f8e66, type: 2}
+  - {fileID: 100002, guid: f13a9b5a65c48d440a4c141e7c2f2e55, type: 2}
+  - {fileID: 100004, guid: 9074ff0fb50ef654eb909d0cb8f01a6a, type: 2}
+  - {fileID: 100002, guid: 1e43e753ae5bff54a90c79b97f58679a, type: 2}
+  - {fileID: 100004, guid: 6a385386caafa3c4481d5aced2eec6a5, type: 2}
+  - {fileID: 100002, guid: eb990ab475c8d114db89d01942c197d7, type: 2}
+  - {fileID: 100002, guid: 96a207b2c199e4f4b87f72d0ee8048ed, type: 2}
+  - {fileID: 100004, guid: 7a0dc64428331a741856a39d158f9b25, type: 2}
+  - {fileID: 100002, guid: 5006825602f4b8e4bb13960e5516810a, type: 2}
+  - {fileID: 100002, guid: 460d7d00e93291747a38c2c84cb24f8f, type: 2}
+  - {fileID: 100002, guid: 72433dffcc5ac8f4eac756d4e057ca94, type: 2}
+  - {fileID: 100002, guid: f2623ef4f17842f4eb8f03d1d310dc74, type: 2}
+  - {fileID: 100002, guid: a58d0f9883880a0428f8bd6a46d4cba1, type: 2}
+  - {fileID: 100004, guid: d8d196d4fc6f4144f9fec248ac4fb94b, type: 2}
+  - {fileID: 100002, guid: e9462f2fe8b922e4ebf560c85422ffbc, type: 2}
+  - {fileID: 100002, guid: e1d29c9575e43034ea69e5431448df7f, type: 2}
+  maxButtons: 10
+  showInfo: 1
+  removeTextFromButton: 'uLiquid - '
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1

@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ui
+  m_EditorData:
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingParameters:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: be64c1b79b080cd4e8b4fedcea10bae7, type: 3}
+    totalSpriteSurfaceArea: 176564
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: fd7cf88ee9b05f94f84bd7686a9669a6, type: 3}
+  - {fileID: 21300000, guid: eee045d55647138479b30e687b81c7e3, type: 3}
+  - {fileID: 21300000, guid: d929e2a65a1cbc54dacdbdcdb33165e2, type: 3}
+  - {fileID: 21300000, guid: 71df6d228f4ab4245b9791d80663baa4, type: 3}
+  - {fileID: 21300000, guid: eec623c29607b1447ac4dc6de3cdda6a, type: 3}
+  - {fileID: 21300000, guid: 7ebd72557d873024e8afa355e92d435f, type: 3}
+  - {fileID: 21300000, guid: 749615b78f067c442b8275980b7ed7c8, type: 3}
+  - {fileID: 21300000, guid: d573cef9968bac840a82613c16823a0e, type: 3}
+  - {fileID: 21300000, guid: 871600bbe5c92eb45a948fe73ff8b1a3, type: 3}
+  - {fileID: 21300000, guid: bdbd8a3ecf4a241499b36f4c13ded10b, type: 3}
+  - {fileID: 21300000, guid: 99e2846e72f06dc4fb23e772dca82743, type: 3}
+  - {fileID: 21300002, guid: f6e6acbe07068e448ada3d7aaeb72562, type: 3}
+  - {fileID: 21300000, guid: f6e6acbe07068e448ada3d7aaeb72562, type: 3}
+  - {fileID: 21300000, guid: 9a7a1aee5662d8e439db9465d2c3e3fe, type: 3}
+  - {fileID: 21300000, guid: 5aeca7df47eecc94bb7fbb5d79cf2036, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - dialog
+  - header
+  - panel_background
+  - slider_bar
+  - button9slice
+  - translucent_01
+  - button
+  - radio_over
+  - slider_slider
+  - radio_disabled
+  - separator
+  - radio_1_off
+  - radio_0_on
+  - radio_off
+  - radio_on
+  m_Tag: ui
+  m_IsVariant: 0

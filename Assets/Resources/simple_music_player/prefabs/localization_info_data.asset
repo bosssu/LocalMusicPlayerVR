@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6763913903e91f447816762be07172c3, type: 3}
+  m_Name: localization_info_data
+  m_EditorClassIdentifier: 
+  localizationInfos:
+  - name: Zh-CN
+    key_value_list:
+    - key: artist
+      value: "\u827A\u672F\u5BB6"
+    - key: album
+      value: "\u4E13\u8F91"
+    - key: all
+      value: "\u6240\u6709"
+    - key: repeat one
+      value: "\u5355\u66F2\u5FAA\u73AF"
+    - key: background rotation
+      value: "\u65CB\u8F6C\u80CC\u666F"
+    - key: enviroment
+      value: "\u73AF\u5883"
+    - key: PointLight
+      value: "\u70B9\u5149\u6E90\u4EAE\u5EA6"
+    - key: lyric
+      value: "\u6B4C\u8BCD"
+    - key: random play
+      value: "\u968F\u673A\u64AD\u653E"
+    - key: other
+      value: "\u5176\u5B83"
+    - key: global environment
+      value: "\u5168\u5C40\u73AF\u5883\u6548\u679C"
+    - key: audio response
+      value: "\u97F3\u9891\u54CD\u5E94"
+    - key: Small items
+      value: "\u5C0F\u7269\u54C1"
+    - key: Searchlight angle
+      value: "\u63A2\u7167\u706F\u89D2\u5EA6"
+    - key: lighting intensity
+      value: "\u5149\u7167\u5F3A\u5EA6"
+    - key: music volume
+      value: "\u97F3\u91CF"
+    - key: audio intensity response
+      value: "\u97F3\u9891\u54CD\u5E94\u5F3A\u5EA6"
+    - key: Point radius
+      value: "\u70B9\u5149\u6E90\u534A\u5F84"
+    - key: Ambient light intensity
+      value: "\u73AF\u5883\u5149\u5F3A\u5EA6"
+    - key: Light type
+      value: "\u706F\u5149\u7C7B\u578B"
+    - key: filtrate
+      value: "\u7B5B\u9009"
+    - key: search
+      value: "\u641C\u7D22"
+    - key: envroment
+      value: "\u73AF\u5883"
+    - key: guide
+      value: "\u5BFC\u5F15"
+    - key: Save the layout
+      value: "\u4FDD\u5B58\u5E03\u5C40"
+    - key: setting
+      value: "\u8BBE\u7F6E"
+    - key: close window
+      value: "\u5173\u95ED"
+    - key: close
+      value: "\u5173\u95ED"
+    - key: The environmental style
+      value: "\u73AF\u5883\u98CE\u683C"
+    - key: Load Layout
+      value: "\u52A0\u8F7D\u5E03\u5C40"
+    - key: next
+      value: "\u4E0B\u4E00\u9996"
+    - key: next effect
+      value: "\u4E0B\u4E00\u4E2A\u7279\u6548"
+    - key: prev
+      value: "\u524D\u4E00\u9996"
+    - key: Reset environment archive
+      value: "\u91CD\u7F6E\u73AF\u5883\u8BBE\u7F6E"
+    - key: pause
+      value: "\u6682\u505C"
+    - key: Uuter ring pictures
+      value: "\u5916\u73AF\u7684\u56FE\u7247"
+    - key: Outer ring pictures
+      value: "\u5916\u73AF\u7684\u56FE\u7247"

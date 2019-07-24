@@ -1,0 +1,361 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a290a13f15a4b64cbab4c6b1721b235, type: 3}
+  m_Name: interactiveobject_data
+  m_EditorClassIdentifier: 
+  envs:
+  - name: Soil pile
+    asset_name: SM_Env_Cliff_02
+    type: 0
+    id: 1001
+    texture_name: 
+    localposition: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  - name: floret
+    asset_name: SM_Env_Flower_01
+    type: 0
+    id: 1002
+    texture_name: 
+    localposition: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  - name: Little round top
+    asset_name: SM_Env_RockPile_01
+    type: 0
+    id: 1003
+    texture_name: 
+    localposition: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  - name: Snow at little rock mountain
+    asset_name: SM_Env_RockPile_03_Snow
+    type: 0
+    id: 1004
+    texture_name: 
+    localposition: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  - name: sapling
+    asset_name: SM_Env_Tree_Twisted_02
+    type: 0
+    id: 1005
+    texture_name: 
+    localposition: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  - name: sapling(snow)
+    asset_name: SM_Env_Tree_Twisted_02_Snow
+    type: 0
+    id: 1006
+    texture_name: 
+    localposition: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  - name: stone
+    asset_name: rpgpp_lt_rocks_tiny_01
+    type: 0
+    id: 1007
+    texture_name: 
+    localposition: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  - name: stone1
+    asset_name: rpgpp_lt_rock_01
+    type: 0
+    id: 1008
+    texture_name: 
+    localposition: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  - name: small tree
+    asset_name: rpgpp_lt_tree_01
+    type: 0
+    id: 1009
+    texture_name: 
+    localposition: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  - name: small tree2
+    asset_name: rpgpp_lt_tree_02
+    type: 0
+    id: 1010
+    texture_name: 
+    localposition: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  - name: small tree3
+    asset_name: rpgpp_lt_tree_pine_01
+    type: 0
+    id: 1011
+    texture_name: 
+    localposition: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  - name: small tree4
+    asset_name: rpgpp_lt_bush_02
+    type: 0
+    id: 1012
+    texture_name: 
+    localposition: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  - name: small tree5
+    asset_name: rpgpp_lt_bush_01
+    type: 0
+    id: 1013
+    texture_name: 
+    localposition: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  - name: Yellow_Tree
+    asset_name: Yellow_Tree
+    type: 0
+    id: 1014
+    texture_name: 
+    localposition: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  - name: Bush
+    asset_name: Bush
+    type: 0
+    id: 1015
+    texture_name: 
+    localposition: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  - name: Green_Tree
+    asset_name: Green_Tree
+    type: 0
+    id: 1016
+    texture_name: 
+    localposition: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  - name: small tree9
+    asset_name: rpgpp_lt_bush_01
+    type: 0
+    id: 1017
+    texture_name: 
+    localposition: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  - name: Red_Tree
+    asset_name: Red_Tree
+    type: 0
+    id: 1018
+    texture_name: 
+    localposition: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  - name: Tree Orange
+    asset_name: Tree Orange 8
+    type: 0
+    id: 1019
+    texture_name: 
+    localposition: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  - name: Tree Stump
+    asset_name: Tree Stump 3
+    type: 0
+    id: 1020
+    texture_name: 
+    localposition: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  - name: Tree Stump2
+    asset_name: Tree Stump 4
+    type: 0
+    id: 1021
+    texture_name: 
+    localposition: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  - name: young tree
+    asset_name: Young Tree 1
+    type: 0
+    id: 1022
+    texture_name: 
+    localposition: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  - name: stone with grass
+    asset_name: Rock 6
+    type: 0
+    id: 1023
+    texture_name: 
+    localposition: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  - name: black stone
+    asset_name: Rock 13
+    type: 0
+    id: 1024
+    texture_name: 
+    localposition: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  - name: Rock2
+    asset_name: Rock 1
+    type: 0
+    id: 1025
+    texture_name: 
+    localposition: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  toys:
+  - name: Statue
+    asset_name: SM_Prop_Statue_01
+    type: 1
+    id: 2001
+    texture_name: 
+    localposition: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  others:
+  - name: Crate(snow)
+    asset_name: SM_Prop_Crate_01_Snow
+    type: 2
+    id: 3001
+    texture_name: 
+    localposition: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  - name: Banner
+    asset_name: SM_Prop_Banner_03
+    type: 2
+    id: 3002
+    texture_name: 
+    localposition: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  - name: Brazier(snow)
+    asset_name: SM_Prop_Brazier_01_Snow
+    type: 2
+    id: 3003
+    texture_name: 
+    localposition: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  - name: CampFire
+    asset_name: SM_Prop_CampFire_01
+    type: 2
+    id: 3004
+    texture_name: 
+    localposition: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  - name: CartHay
+    asset_name: SM_Prop_CartHay_01
+    type: 2
+    id: 3005
+    texture_name: 
+    localposition: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  - name: CartHay(snow)
+    asset_name: SM_Prop_CartHay_01_Snow
+    type: 2
+    id: 3006
+    texture_name: 
+    localposition: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  - name: fence
+    asset_name: SM_Prop_Fence_01
+    type: 2
+    id: 3007
+    texture_name: 
+    localposition: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  - name: fence(snow)
+    asset_name: SM_Prop_Fence_01_Snow
+    type: 2
+    id: 3008
+    texture_name: 
+    localposition: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  - name: Guillotine
+    asset_name: SM_Prop_Guillotine_01
+    type: 2
+    id: 3009
+    texture_name: 
+    localposition: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  - name: Lampost_01(snow)
+    asset_name: SM_Prop_Lampost_01_Snow
+    type: 2
+    id: 3010
+    texture_name: 
+    localposition: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  - name: Rowboat_01(snow)
+    asset_name: SM_Prop_Rowboat_01_Snow
+    type: 2
+    id: 3011
+    texture_name: 
+    localposition: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  - name: Table_Conference
+    asset_name: Table_Conference
+    type: 2
+    id: 3012
+    texture_name: 
+    localposition: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  - name: Table_Conference2
+    asset_name: Table_Conference
+    type: 2
+    id: 3013
+    texture_name: 
+    localposition: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  - name: PlantPotLargeA
+    asset_name: PlantPotLargeA
+    type: 2
+    id: 3014
+    texture_name: 
+    localposition: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  - name: Chair_Conference_Teal1
+    asset_name: Chair_Conference_Teal
+    type: 2
+    id: 3015
+    texture_name: 
+    localposition: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  - name: Chair_Office_Red
+    asset_name: Chair_Office_Red
+    type: 2
+    id: 3016
+    texture_name: 
+    localposition: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  - name: Laptop_On
+    asset_name: Laptop_On
+    type: 2
+    id: 3017
+    texture_name: 
+    localposition: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  - name: PlantTypeA
+    asset_name: PlantTypeA
+    type: 2
+    id: 3018
+    texture_name: 
+    localposition: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  - name: Tablet
+    asset_name: Tablet
+    type: 2
+    id: 3019
+    texture_name: 
+    localposition: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  audio_response:
+  - name: sprint_ball
+    asset_name: sprint_ball
+    type: 3
+    id: 4001
+    texture_name: 
+    localposition: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  global_env:
+  - name: rain
+    asset_name: uLiquid - Water - Rain v2
+    type: 4
+    id: 5001
+    texture_name: 
+    localposition: {x: 0, y: 10, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  - name: snow
+    asset_name: CFX3_Snow_Dense
+    type: 4
+    id: 5002
+    texture_name: 
+    localposition: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  - name: bubble
+    asset_name: CFX4 Environment Bubbles Denser
+    type: 4
+    id: 5003
+    texture_name: 
+    localposition: {x: 0, y: -3, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
